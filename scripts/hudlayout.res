@@ -48,14 +48,14 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "12"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "8"
+		"MaxDeathNotices" "24"
+		"IconScale"	  "1"
+		"LineHeight"	  "10"
 		"LineSpacing"	  "-1"
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Regular8"
+		"TextFont"		"Regular10"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -88,7 +88,7 @@
 		"enabled"	"1"
 
 		"xpos"		"c-16"		//place laterally
-		"ypos"		"c-16"		//place vertically
+		"ypos"		"c-15"		//place vertically
 		"zpos"		"2"
 		
 		"wide"		"33"		//minute placement adjustments laterally
@@ -96,7 +96,7 @@
 
 		"font"		"fogCrosshair"		//change to fogCrosshairSmall for a smaller xhair
 
-		"labeltext"	"y"
+		"labeltext"	"t"
 		// Change the "y" to represent the crosshair you want displayed in the Crosshairs.jpg
 		
 		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
@@ -117,7 +117,7 @@
 		// flashing upon giving damage.
 
 	}
-	
+
 	/////////////////////////////////////////////////////////////////////////////
 	//Garm3n's Crosshairs
 	/////////////////////////////////////////////////////////////////////////////
