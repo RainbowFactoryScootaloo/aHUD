@@ -186,8 +186,8 @@
 		"zpos"			"4"
 		"wide"			"42"	
 		"tall"			"42"
-		"visible"		"0" 
-		"enabled"		"0"
+		"visible"		"1" 
+		"enabled"		"1"
 		"scaleImage"	"0"	
 	}		
 	"PlayerStatusHealthImageBG"
@@ -199,8 +199,8 @@
 		"zpos"			"3"
 		"wide"			"46"	
 		"tall"			"46"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
