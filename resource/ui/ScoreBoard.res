@@ -1176,7 +1176,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1202,7 +1202,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1228,7 +1228,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1254,7 +1254,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1280,7 +1280,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1306,7 +1306,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1332,7 +1332,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1358,7 +1358,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1384,7 +1384,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1410,7 +1410,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1436,7 +1436,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1462,7 +1462,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1489,7 +1489,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1515,7 +1515,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1542,7 +1542,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1568,7 +1568,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1595,7 +1595,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1621,7 +1621,7 @@
 			"wide"			"162"
 			"ypos_minmode"		"r124"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1648,7 +1648,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1674,7 +1674,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1701,7 +1701,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1727,7 +1727,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1752,7 +1752,7 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			
 			if_mvm
@@ -1777,7 +1777,7 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 						
 			if_mvm
@@ -1802,7 +1802,7 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			
 			if_mvm
@@ -1827,7 +1827,7 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			
 			if_mvm
@@ -1855,7 +1855,7 @@
 			"fillcolor"		"HudBGT"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm
@@ -1878,7 +1878,7 @@
 			"fillcolor"		"HudBGT"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"visible_minmode"	"0"
 			"enabled"		"1"
 
@@ -1899,7 +1899,7 @@
 			"fillcolor"		"HudBGT"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"visible_minmode"	"0"
 			"enabled"		"1"
 
