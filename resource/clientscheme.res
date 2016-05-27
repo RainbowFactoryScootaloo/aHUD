@@ -45,7 +45,7 @@ Scheme
 		
 		"MainMenuBG"		"11 7 6 190"			//BG of main menu box
 
-		"Select"			"43 43 42 255"			//Dark grey for default buttons
+		"Select"			"43 43 42 255"			//Dark grey for default buttons	
 		"ButtonBG"			"35 33 32 255"			//Darker grey for armed buttons
 		"ButtonBGT"			"35 33 32 220"			//Transparent darker grey
 		"Highlight"			"226 180 20 255"		//Gold color for hovering over buttons
@@ -97,10 +97,10 @@ Scheme
 		"White"				"255 255 255 175"			//Transparent white for text
 		"WhiteS"			"225 225 225 255"			//Matching solid white
 		
-		"RedTeam" 			"184 56 59 175"				//Team fill colors transparent
-		"BlueTeam"			"78 123 152 175"			//
-		"RedTeamS" 			"157 54 54 255"				//
-		"BlueTeamS"			"75 110 140 255"			//Team fill colors solid
+		"RedTeam" 			"189 59 59 120"				//Team fill colors transparent
+		"BlueTeam"			"45 97 124 120"			//
+		"RedTeamS" 			"189 59 59 255"				//
+		"BlueTeamS"			"45 97 124 255"			//Team fill colors solid
 		
 		"LightGray"			"212 212 212 255"
 		"Metal"				"137 159 179 255"
@@ -3055,7 +3055,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Clear Sans Bold"
 				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
@@ -4253,6 +4253,17 @@ Scheme
 			}
 		}
 		
+		"FeedFont"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"10"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}		
+		
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -4515,6 +4526,52 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		"MatchSummaryTeamScores"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"36"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"MatchSummaryStatsAndMedals"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MatchSummaryWinner"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		
 		"ControlPointTimer"
 		{
@@ -4851,6 +4908,39 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ImportToolSmallestBold"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"600"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ImportToolSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -5843,7 +5933,18 @@ Scheme
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
-		}
+		}		
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}		
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
@@ -5855,6 +5956,39 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}		
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_clear"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}		
 
 		ToolTipBorder
 		{
@@ -7523,6 +7657,86 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		HighlightBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Highlight"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Highlight"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Highlight"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Highlight"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		WhiteBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 175"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 175"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 255 175"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 255 175"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		QuickplayBorder
 		{
 			"inset" "0 0 1 1"
@@ -7706,6 +7920,42 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
 		}
+		
+		QuestStatusBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}		
 	}
 //////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
@@ -7777,57 +8027,57 @@ Scheme
 		}
 		"8" 
 		{
-			"font" "resource/fonts/Paula.ttf"
+			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
 		"9" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Black.ttf"
+			"font" "resource/fonts/avenirltstd-black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
 		"10" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"font" "resource/fonts/avenirltstd-medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}	
 		"11" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
+			"font" "resource/fonts/avenirltstd-heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}		
 		"12" 
 		{
-			"font" "resource/fonts/FogsCrosshairs.otf"
+			"font" "resource/fonts/fogscrosshairs.otf"
 			"name" "Crosshairs"
 		}
 		"13" 
 		{
-			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"font" "resource/fonts/knucklescrosses.ttf"
 			"name" "KnucklesCrosses"
 		}		
 		"14" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Book.otf"
+			"font" "resource/fonts/avenirltstd-book.otf"
 			"name" "AvenirLTStd-Book"
 		}	
 		"15"
 		{
-			"font" "resource/fonts/Entypo.otf"
+			"font" "resource/fonts/entypo.otf"
 			"name" "Entypo"
 		}
 		"16" 
 		{
-			"font" "resource/fonts/Garm3nFont.ttf"
+			"font" "resource/fonts/garm3nfont.ttf"
 			"name" "Garm3nFont"
 		}
         "17" 
 		{
-			"font" "resource/fonts/NovecentoMedium.ttf"
+			"font" "resource/fonts/novecentomedium.ttf"
 			"name" "NovecentoMedium" 
 		}
         "18" 
 		{
-			"font" "resource/fonts/NovecentoBook.ttf"
+			"font" "resource/fonts/novecentobook.ttf"
 			"name" "NovecentoBook"  
 		}
 		"19"
@@ -7837,7 +8087,7 @@ Scheme
 		}
 		"20"
 		{
-			"font" "resource/fonts/ClearSans-Bold.ttf"
+			"font" "resource/fonts/clearsans-bold.ttf"
 			"name" "Clear Sans Bold"
 		}
 		"21"

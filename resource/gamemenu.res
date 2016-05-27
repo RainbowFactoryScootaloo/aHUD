@@ -90,7 +90,7 @@
 	{
 		"label" "7HUD"
 		"command"		"engine toggleconsole;
-			play vo/toughbreak/plng_toughbreak_contractgiverare_beergarden.mp3
+			play vo/toughbreak/plng_toughbreak_contractgiverare_tiger.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
@@ -100,9 +100,9 @@
 	}	
 	"Version"
 	{
-		"label" "v4.35"
+		"label" "v4.44"
 		"command"		"engine toggleconsole;
-			play vo/toughbreak/plng_toughbreak_contractgiverare_beergarden.mp3
+			play vo/toughbreak/plng_toughbreak_contractgiverare_tiger.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
@@ -164,4 +164,11 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 	}
+	"ReportPlayerButton"
+	{
+		"label"			"Report Player"
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+	}	
 }

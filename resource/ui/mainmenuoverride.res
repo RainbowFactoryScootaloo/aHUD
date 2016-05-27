@@ -286,7 +286,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"Scoreboard"
 		"xpos"			"53"
-		"ypos"			"331"
+		"ypos"			"345"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -347,7 +347,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"demoui"
 		"xpos"			"53"
-		"ypos"			"345"
+		"ypos"			"359"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -453,10 +453,50 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_operation
+		if_halloween_0
 		{
-			"image"		"../console/title_team_tough_break"
-		}		
+			"image"		"../console/title_team_halloween2011"
+		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014"
+		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
+		if_fullmoon
+		{
+			"image"		"../console/title_fullmoon"
+		}
+		if_christmas
+		{
+			"image"		"../console/background_xmas2011"
+		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+		if_spy_vs_engy_war
+		{
+			"image"		"../console/background_sve_01"
+		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_tough_break"
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 					
 	"TFLogoImage"
@@ -472,6 +512,11 @@
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
+		
+//		if_operation
+//		{
+//			"image"		"../logo/tough_break_logo"
+//		}		
 	}	
 	
 	"TFCharacterImage"
@@ -758,6 +803,88 @@
 		}
 	}
 
+	"WatchStreamButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WatchStreamButton"
+		"xpos"          "53"
+        "ypos"          "275"
+        "zpos"          "11"
+        "wide"          "100"
+        "tall"          "14"
+        "visible"       "1"
+        "enabled"       "1"
+        "PaintBackgroundType"   "0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+            "textinsetx"    "0"			
+			"labelText"		"Streams"
+			"use_proportional_insets" "1"
+			"font"			"MainMenuFont"
+			"command"		"watch_stream"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "OmpText"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"c5"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"314"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"1"
+		"bgcolor_override"	"35 33 32 225"
+		"border"		"quickplayborder"
+	}
+	
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -944,7 +1071,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c0"
+		"xpos"			"9999"	//c0
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"300"
@@ -1623,7 +1750,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
 		"xpos"			"53"
-		"ypos"			"275"
+		"ypos"			"289"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -2424,13 +2551,75 @@
 			}
 		}
 	}
+	
+	"ReportPlayerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReportPlayerButton"
+		"xpos"			"53"
+		"ypos"			"107"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"14"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"MainMenuFont"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "OmpText"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+			}				
+		}
+	}
 
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"53"
-		"ypos"			"107"
+		"ypos"			"93"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -2879,7 +3068,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"53"
-		"ypos"			"317"
+		"ypos"			"331"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"14"
@@ -2931,7 +3120,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"53"
-		"ypos"			"303"
+		"ypos"			"317"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"14"
@@ -2983,7 +3172,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
 		"xpos"			"53"
-		"ypos"			"373"
+		"ypos"			"387"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"14"
@@ -3035,7 +3224,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
 		"xpos"			"53"
-		"ypos"			"373"
+		"ypos"			"387"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"14"
@@ -4248,7 +4437,7 @@
 					}
 					"5"
 					{
-						"item"		"Taunt: Aerobic Taunt"
+						"item"		"Taunt: Mannrobics"
 						"show_market"	"0"
 					}
 					
