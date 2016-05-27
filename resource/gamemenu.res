@@ -88,26 +88,17 @@
 	}
 	"7HUD"
 	{
-		"label" "7HUD"
+		"label" "andryHUD"
 		"command"		"engine toggleconsole;
-			play vo/toughbreak/plng_toughbreak_contractgiverare_tiger.mp3
-			echo -------------------------------------------------------------------------------;
-			echo -------------------------------------------------------------------------------;
-			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
-			echo -------------------------------------------------------------------------------;
-			echo -------------------------------------------------------------------------------"
+			echo github.com/andry-dev/andryHUD;
+			echo Thanks to Sevin, for making such a great HUD"
 		"subimage" "glyph_muted"
 	}	
 	"Version"
 	{
-		"label" "v4.44"
+		"label" "7HUD v4.44 | aHUD 4.0"
 		"command"		"engine toggleconsole;
-			play vo/toughbreak/plng_toughbreak_contractgiverare_tiger.mp3
-			echo -------------------------------------------------------------------------------;
-			echo -------------------------------------------------------------------------------;
-			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
-			echo -------------------------------------------------------------------------------;
-			echo -------------------------------------------------------------------------------"
+			echo Check github for updates"
 		"subimage" "glyph_muted"
 	}
 	"Scoreboard"
