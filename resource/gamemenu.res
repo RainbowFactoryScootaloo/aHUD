@@ -96,7 +96,7 @@
 	}	
 	"Version"
 	{
-		"label" "7HUD v4.44 | aHUD 4.0"
+		"label" "7HUD v4.46 | aHUD 4.0"
 		"command"		"engine toggleconsole;
 			echo Check github for updates"
 		"subimage" "glyph_muted"
