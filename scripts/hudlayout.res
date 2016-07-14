@@ -761,7 +761,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"
-		"ypos"			"r113"	//r133
+		"ypos"			"r129"	//r133
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"10"
@@ -914,7 +914,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-120"
-		"ypos"		"324"
+		"ypos"		"322"
 		"wide"	 	"f0"			//60
 		"tall"	 	"38" // 34
 		"priority"	"40"
@@ -1583,7 +1583,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"	
-		"ypos"			"r164"	
+		"ypos"			"r155"	
 		"wide"			"118"
 		"tall"			"60"
 	}	
@@ -1977,18 +1977,6 @@ ItemQuickSwitchPanel
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
-	}
-
-	"QuestLogContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
 	}
 
 	"MatchMakingContainer"

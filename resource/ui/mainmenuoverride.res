@@ -227,7 +227,7 @@
 		"xpos"			"10"
 		"ypos"			"r18"
 		"zpos"			"11"
-		"wide"			"100"
+		"wide"			"45"
 		"tall"			"14"
 		"visible"		"1"
 		
@@ -281,6 +281,72 @@
 			}	
 		}		
 	}
+	
+	"ViewWarButton2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ViewWarButton2"
+		"xpos"			"45"
+		"ypos"			"r18"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"14"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"VersionFont2"
+			"textAlignment"	"east"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"labeltext"		"#MMenu_ViewWar"
+			"command"		"view_war"
+			"actionsignallevel"	"2"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "OmpText"
+			"armedFgColor_override" "Highlight"
+			"depressedFgColor_override" "Highlight"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"	
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+			}	
+		}
+	}		
+
 	"Scoreboard"
 	{
 		"ControlName"	"EditablePanel"
@@ -777,6 +843,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 
+			"actionsignallevel" "2"
 			"Command"		"noti_show"
 			"navActivate"	"<QuickplayButton"
 
@@ -1132,6 +1199,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+			
+			"actionsignallevel"	"2"			
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -4220,7 +4289,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c30"
+		"xpos"			"9999"		//c30
 		"ypos"			"55"
 		"zpos"			"-60"
 		"wide"			"320"
@@ -4396,7 +4465,7 @@
 				"zpos"					"100"
 				"wide"					"f10"
 				"tall"					"p0.5"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"

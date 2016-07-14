@@ -10,7 +10,7 @@
 	"QuickplayButton"
 	{
 		"label" "Quickplay"
-		"command" "quickplay"
+		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
@@ -24,14 +24,14 @@
 	"PlayPVEButton"
 	{
 		"label" "Cooperative"
-		"command" "playpve"
+		"command" "play_mvm"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
     "PlayCompButton"
     {
         "label" "Competitive" 
-        "command" "ladder_ui_show"
+        "command" "play_competitive"
         "subimage" "glyph_practice"
         "OnlyAtMenu" "1"
     }	
@@ -96,7 +96,7 @@
 	}	
 	"Version"
 	{
-		"label" "7HUD v4.46 | aHUD 4.0"
+		"label" "7HUD v4.48 | aHUD 4.0"
 		"command"		"engine toggleconsole;
 			echo Check github for updates"
 		"subimage" "glyph_muted"
