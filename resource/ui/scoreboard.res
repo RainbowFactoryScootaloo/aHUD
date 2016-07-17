@@ -1373,8 +1373,8 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			if_mvm
 			{
@@ -1425,8 +1425,8 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			if_mvm
 			{
@@ -2378,8 +2378,8 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 						
 			if_mvm
 			{
@@ -2463,8 +2463,8 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			
 			if_mvm
 			{

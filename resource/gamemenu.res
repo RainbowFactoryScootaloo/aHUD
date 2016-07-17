@@ -91,12 +91,13 @@
 		"label" "andryHUD"
 		"command"		"engine toggleconsole;
 			echo github.com/andry-dev/andryHUD;
-			echo Thanks to Sevin, for making such a great HUD"
+			echo Thanks to Sevin, for making such a great HUD;
+			echo Probably I should patch it a little bit :)"
 		"subimage" "glyph_muted"
 	}	
 	"Version"
 	{
-		"label" "7HUD v4.49 | aHUD 4.0"
+		"label" "andryHUD 4.0"
 		"command"		"engine toggleconsole;
 			echo Check github for updates"
 		"subimage" "glyph_muted"
