@@ -2,6 +2,62 @@
 7HUD through the years
 ======================
 
+v4.57
+01/02/2017
+
+- cleaned up backpack ui
+- cleaned up class loadout ui
+- cleaned up item selection ui
+- cleaned up store pages
+- expanded player model area in loadout panel
+
+v4.56
+12/21/2016
+
+- updated for smissmas 2016
+
+v4.55
+12/19/2016
+
+- lowered opacity of winpanel backgrounds
+- removed freeze panel callout background (gibbed body part locations)
+- tf_scoreboard_mouse_mode compatibility fixed itself?
+
+v4.54
+11/13/2016
+
+- redesigned bumper car display
+- tweaked in-game quest display
+- stylized supernova mannpower powerup
+
+v4.53
+10/21/2016
+
+- updated for scream fortress viii
+
+v4.52
+09/27/2016
+
+- updated for sept. 27 patch
+
+v4.51
+08/30/2016
+
+- koth comp/casual fixes and tweaks
+- cleaned up comp/casual end-game scoreboard
+- fixed vaccinator resistance icon not displaying when not healing
+- fixed hudplayerclass calling for nonexistent materials
+- fixed no player count appearing when one person is capping a point
+
+v4.50
+08/27/2016
+
+- designed new cp icons
+- revised round counter display in matchmaking/casual
+- red/blu team color tweaks
+- removed heavy/pyro war button
+- fixed demo sticky positioning in centered version
+
 v4.49
 07/14/2016
 
@@ -26,7 +82,7 @@ v4.47
 - applied new dropshadows to more stuff
 - font/color definition cleanup
 - added support + damage to 6v6 scoreboard
-- removed medals from scoreboard (looks bad  and not very important)
+- removed medals from scoreboard (looks bad and not very important)
 - deleted unnecessary materials
 
 v4.46

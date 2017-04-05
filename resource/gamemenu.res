@@ -97,7 +97,7 @@
 	}	
 	"Version"
 	{
-		"label" "andryHUD 4.0"
+		"label" "andryHUD 4.1"
 		"command"		"engine toggleconsole;
 			echo Check github for updates"
 		"subimage" "glyph_muted"

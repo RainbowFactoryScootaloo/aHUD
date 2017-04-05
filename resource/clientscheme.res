@@ -97,10 +97,10 @@ Scheme
 		"White"				"255 255 255 175"			//Transparent white for text
 		"WhiteS"			"225 225 225 255"			//Matching solid white
 		
-		"RedTeam" 			"189 59 59 120"				//Team fill colors transparent
-		"BlueTeam"			"45 97 124 120"			//
-		"RedTeamS" 			"189 59 59 255"				//
-		"BlueTeamS"			"45 97 124 255"			//Team fill colors solid
+		"RedTeam" 			"130 56 56 200"				//Semi-transparent red team color for hud bg's
+		"RedTeamS" 			"130 56 56 255"				//Solid red team color for hud bg's
+		"BlueTeam"			"56 99 130 200"			//Semi-transparent blue team color for hud bg's
+		"BlueTeamS"			"56 99 130 255"			//Solid blue team color for hud bg's
 		
 		"LightGray"			"212 212 212 255"
 		"Metal"				"137 159 179 255"
@@ -4422,6 +4422,17 @@ Scheme
 				"custom"		"1" [$OSX]
 			}
 		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		"ScoreboardVerySmall"
 		{
 			"1"
@@ -5538,6 +5549,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		ControllerHintText
 		{
 			"1"
@@ -5548,6 +5560,7 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -5557,6 +5570,45 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+
+		"XPSource"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Book"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias" 	"1"
+				"custom"	"1"
+			}
+		}
+
+		"XPSource_Glow"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Book"
+				"tall"		"11"
+				"weight"	"500"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+				"custom"	"1"
+			}
+		}
+
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Book"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}		
 	}
@@ -5917,11 +5969,11 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_color"
+			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -8052,6 +8104,30 @@ Scheme
 			"image"					"inner_shadow_border"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
+		OuterShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
+		OuterShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}		

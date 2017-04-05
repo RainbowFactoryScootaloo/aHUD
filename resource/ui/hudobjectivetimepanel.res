@@ -77,8 +77,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
+			"ypos"					"20"
 			"font"					"HudFontSmallestBold"
 		}		
 	}			
@@ -126,12 +125,9 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
+			"xpos"					"cs-0.41"
+			"ypos"					"20"
 			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}		
 	}			
 	"OvertimeBG"
@@ -178,8 +174,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
+			"ypos"					"20"
 			"font"					"HudFontSmallestBold"
 		}		
 	}			
@@ -227,8 +222,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
+			"ypos"					"20"
 			"font"					"HudFontSmallestBold"
 		}		
 	}	
