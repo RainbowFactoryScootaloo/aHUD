@@ -9,7 +9,7 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "Quickplay"
+		"label" "#MMenu_PlayList_Casual_Button"
 		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
@@ -93,14 +93,12 @@
 			echo github.com/andry-dev/andryHUD;
 			echo Thanks to Sevin, for making such a great HUD;
 			echo Probably I should patch it a little bit :)"
-		"subimage" "glyph_muted"
 	}	
 	"Version"
 	{
-		"label" "andryHUD 4.1"
+		"label" "andryHUD 4.2"
 		"command"		"engine toggleconsole;
 			echo Check github for updates"
-		"subimage" "glyph_muted"
 	}
 	"Scoreboard"
     {
