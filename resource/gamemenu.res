@@ -96,7 +96,7 @@
 	}	
 	"Version"
 	{
-		"label" "andryHUD 4.2"
+		"label" "andryHUD 4.3"
 		"command"		"engine toggleconsole;
 			echo Check github for updates"
 	}
